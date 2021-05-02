@@ -1,5 +1,5 @@
 .body{
- background-image: url(/LPAG\ background.png) ;
+ background-image: url(LPAG\ background.png) ;
  background-repeat: repeat;
  }
 
@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(8, 29, 73, 0.521);
+  background-color: rgba(8, 29, 73, 0.774);
 }
 
 .liright{
