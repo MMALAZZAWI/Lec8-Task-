@@ -1,0 +1,157 @@
+.body{
+ background-image: url(/LPAG\ background.png) ;
+ background-repeat: repeat;
+ }
+
+ /*Nav Bar*/
+.navlogo{
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 20px;   
+}
+.ulright{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(8, 29, 73, 0.521);
+}
+
+.liright{
+    float: right;
+    }
+
+.liright a{
+    font-size: large;    
+    display: inline-block;
+    color: rgb(250, 250, 250);
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin-top: 10px;
+ }
+
+ .lileft{
+    float: left;
+ }
+ 
+ .lileft a{
+    font-size: large;    
+    display: inline-block;
+    color: rgb(247, 249, 252);
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 10px;
+ }
+
+ .lileft a:hover{
+     background-color:  rgba(15, 6, 95, 0.753);
+ }
+ .liright a:hover{
+    background-color: rgba(15, 6, 95, 0.753);
+}
+
+/*Head*/
+
+.HeadTitle{
+    color: rgb(15, 1, 138);
+    text-align: center;
+    font-size: 28pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.HeadBox{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HeadPar{
+    text-align: justify;
+    width: 700px;
+    font-size: 14pt;
+    font-weight: bold;
+    order: 0;
+    background-color: white;
+}
+
+.FlexContainar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.SecTitle{
+    color: rgb(15, 1, 138);
+    text-align: center;
+    font-size: 28pt;
+    font-weight: bolder;
+    font-family:cursive ;
+}
+
+.FlexContainar h3{
+    text-align: center;
+    color: rgb(206, 12, 12);
+}
+
+.img1{
+    width: 300px;
+    height: 400px;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.front{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+   
+}
+
+.back{
+    width: 300px;
+    height: 400px;
+    justify-content: left;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(204, 204, 204);
+    background-color: rgba(4, 33, 53, 0.932);
+    position: absolute;
+    transform: rotateY(180deg);
+    z-index: 1;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.FlexContainar :hover .card{
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.parback{
+    margin-left: 10px;
+}
